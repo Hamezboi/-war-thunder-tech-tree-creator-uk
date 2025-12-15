@@ -97,16 +97,16 @@ class Vehicle {
 
     display_badge() {
         if (this.research_type === 'Researchable' || this.research_type === 'Reserve' || this.research_type === 'Event') {
-            this.badge = 'https://i.imgur.com/9mT03Mp.png'
+            this.badge = 'https://forum-en-cdn.warthunder.com/original/4X/b/b/9/bb957a2fcdb96638091b51a822bbc52b548ef0df.webp'
         }
         else if (this.research_type === 'Premium') {
-            this.badge = 'https://i.imgur.com/YmHHsTv.png'
+            this.badge = 'https://forum-en-cdn.warthunder.com/original/4X/b/4/4/b44f28a230402a96dca747964d7329b33505053b.webp'
         }
         else if (this.research_type === 'Squadron') {
-            this.badge = 'https://i.imgur.com/vOCGHVF.png'
+            this.badge = 'https://forum-en-cdn.warthunder.com/original/4X/7/9/e/79e2b3a4dfa317992f63f3f636bf4d670b2370cd.webp'
         }
         else if (this.research_type === 'Event (alternate background)') {
-            this.badge = 'https://i.imgur.com/LrlAXyE.png'
+            this.badge = 'https://forum-en-cdn.warthunder.com/original/4X/e/2/7/e2771523d1b6b1f4c130408388d8e2cb10015a07.webp'
         }
         let vehicle_badge = document.createElement('img')
         vehicle_badge.src = this.badge
